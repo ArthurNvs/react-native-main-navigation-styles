@@ -6,7 +6,7 @@ export default props => {
     const num = r && r.params && r.params.num ? r.params.num : 0
     return (
         <CentralText>
-            C Screen - forward pushed param: {num}
+            C  (forward pushed param: {num})
         </CentralText>
     )
 }
