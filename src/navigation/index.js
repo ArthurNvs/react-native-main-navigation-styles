@@ -8,8 +8,8 @@ import Drawer from './Drawer'
 export default props => (
     <SafeAreaView style={styles.container}>
         <NavigationContainer>
-            <Drawer />
-            {/* <Tab /> */}
+            {/* <Drawer /> */}
+            <Tab />
             {/* <Stack /> */}
         </NavigationContainer>
     </SafeAreaView>
